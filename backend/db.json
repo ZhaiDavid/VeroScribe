@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "id": "doc1",
+      "email": "maya@hospital.com",
+      "password": "doc123",
+      "type": "doctor",
+      "physicianId": "p1"
+    },
+    {
+      "id": "doc2",
+      "email": "aiden@hospital.com",
+      "password": "doc123",
+      "type": "doctor",
+      "physicianId": "p2"
+    },
+    {
+      "id": "doc3",
+      "email": "priya@hospital.com",
+      "password": "doc123",
+      "type": "doctor",
+      "physicianId": "p3"
+    },
+    {
+      "id": "patient1",
+      "email": "john@example.com",
+      "password": "patient123",
+      "type": "patient",
+      "firstName": "John",
+      "middleName": "",
+      "lastName": "Smith",
+      "preferredName": ""
+    },
+    {
+      "id": "patient2",
+      "email": "jane@example.com",
+      "password": "patient123",
+      "type": "patient",
+      "firstName": "Jane",
+      "middleName": "Marie",
+      "lastName": "Doe",
+      "preferredName": "J.M."
+    },
+    {
+      "id": "SK7kKw5sp5W394KO4hrpG",
+      "email": "alice@test.com",
+      "password": "Password123",
+      "type": "patient",
+      "firstName": "Alice",
+      "middleName": "",
+      "lastName": "Johnson",
+      "preferredName": ""
+    },
+    {
+      "id": "Y7nR35xYCfxlbKmBqGJMp",
+      "email": "davidzhai07@gmail.com",
+      "password": "qwerty123@$",
+      "type": "patient",
+      "firstName": "Pan Shun David",
+      "middleName": "",
+      "lastName": "Zhai",
+      "preferredName": "David"
+    },
+    {
+      "id": "ax9805MZoKlcCsEEEU2fu",
+      "email": "davidcopy38@gmail.com",
+      "password": "Qwerty123@$",
+      "type": "doctor"
+    }
+  ],
+  "physicians": [
+    {
+      "id": "p1",
+      "name": "Dr. Maya Hernandez",
+      "specialty": "Family Medicine",
+      "location": "Suite 101",
+      "bio": "Dr. Hernandez has 15 years of experience in family medicine. She is dedicated to providing comprehensive primary care and building long-term relationships with her patients. Dr. Hernandez completed her MD at Johns Hopkins Medical School and her residency at Massachusetts General Hospital.",
+      "email": "maya@hospital.com",
+      "phone": "(555) 123-4567",
+      "yearsExperience": 15,
+      "education": "MD, Johns Hopkins Medical School"
+    },
+    {
+      "id": "p2",
+      "name": "Dr. Aiden Brooks",
+      "specialty": "Internal Medicine",
+      "location": "Suite 102",
+      "bio": "Dr. Brooks specializes in internal medicine with a focus on chronic disease management and preventive care. With 12 years of clinical experience, he is committed to patient education and evidence-based treatment approaches. Dr. Brooks completed his MD at Stanford School of Medicine.",
+      "email": "aiden@hospital.com",
+      "phone": "(555) 234-5678",
+      "yearsExperience": 12,
+      "education": "MD, Stanford School of Medicine"
+    },
+    {
+      "id": "p3",
+      "name": "Dr. Priya Patel",
+      "specialty": "Pediatrics",
+      "location": "Suite 103",
+      "bio": "Dr. Patel is a pediatrician with 10 years of experience caring for infants, children, and adolescents. She believes in a family-centered approach to pediatric care and is passionate about preventive health and childhood wellness. Dr. Patel completed her MD at Harvard Medical School.",
+      "email": "priya@hospital.com",
+      "phone": "(555) 345-6789",
+      "yearsExperience": 10,
+      "education": "MD, Harvard Medical School"
+    }
+  ],
+  "slots": [
+    {
+      "id": "s1",
+      "physicianId": "p1",
+      "datetime": "2026-05-12T09:00:00",
+      "isAvailable": true
+    },
+    {
+      "id": "s2",
+      "physicianId": "p1",
+      "datetime": "2026-05-12T10:00:00",
+      "isAvailable": true
+    },
+    {
+      "id": "s3",
+      "physicianId": "p1",
+      "datetime": "2026-05-12T14:00:00",
+      "isAvailable": true
+    },
+    {
+      "id": "s4",
+      "physicianId": "p2",
+      "datetime": "2026-05-12T09:30:00",
+      "isAvailable": true
+    },
+    {
+      "id": "s5",
+      "physicianId": "p2",
+      "datetime": "2026-05-12T11:00:00",
+      "isAvailable": true
+    },
+    {
+      "id": "s6",
+      "physicianId": "p2",
+      "datetime": "2026-05-12T15:00:00",
+      "isAvailable": true
+    },
+    {
+      "id": "s7",
+      "physicianId": "p3",
+      "datetime": "2026-05-12T08:30:00",
+      "isAvailable": true
+    },
+    {
+      "id": "s8",
+      "physicianId": "p3",
+      "datetime": "2026-05-12T10:30:00",
+      "isAvailable": true
+    },
+    {
+      "id": "s9",
+      "physicianId": "p3",
+      "datetime": "2026-05-12T13:30:00",
+      "isAvailable": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": "jubCTm0Mqv5E32ljUVYU1",
+      "physicianId": "p1",
+      "slotId": "s3",
+      "patientName": "John Smith",
+      "email": "john@example.com",
+      "phone": "633-234-3454",
+      "reason": "I hurt my knee",
+      "status": "cancelled",
+      "requestedAt": "2026-05-08T02:25:09.337Z"
+    }
+  ]
+}

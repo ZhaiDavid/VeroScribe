@@ -1,0 +1,51 @@
+/* Physician Details Styles */
+.physician-detail-card {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 16px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+}
+
+.physician-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.profile-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.physician-meta {
+  flex: 1 1 320px;
+}
+
+.physician-detail-card h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.2rem;
+}
+
+.physician-detail-card p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.physician-detail-card p strong {
+  color: #374151;
+}
+
+.physician-detail-card .bio {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #d1d5db;
+  font-style: italic;
+}
