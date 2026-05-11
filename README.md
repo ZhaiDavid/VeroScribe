@@ -16,11 +16,11 @@ Simple React + Express booking flow with a local `lowdb` database.
 The React app will run on `http://localhost:4173` and API requests are proxied to `http://localhost:4000`.
 
 ## Available features
-- User authentication for patients and physicians (admin)
+- User authentication for patients and physicians 
 - Patient-facing physician selection
-- Available appointment time selection
-- Patient details form + reason for visit
-- Admin bookings dashboard
+  - Available appointment time selection
+  - Patient details form + reason for visit
+- Physician bookings dashboard
 - Booking statuses: pending, confirmed, cancelled
 
 ## Demo accounts
@@ -28,7 +28,7 @@ Patient Account
 Email: john@example.com  
 Password: patient123  
 
-Physician (Admin) Account  
+Physician Account  
 Email: maya@hospital.com  
 Password: doc123  
 
