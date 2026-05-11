@@ -108,7 +108,7 @@
       "id": "s1",
       "physicianId": "p1",
       "datetime": "2026-05-12T09:00:00",
-      "isAvailable": true
+      "isAvailable": false
     },
     {
       "id": "s2",
@@ -170,6 +170,18 @@
       "reason": "I hurt my knee",
       "status": "cancelled",
       "requestedAt": "2026-05-08T02:25:09.337Z"
+    },
+    {
+      "id": "WfIUt4qQFeYlXcp6puj9f",
+      "physicianId": "p1",
+      "slotId": "s1",
+      "patientId": "patient1",
+      "patientName": "John Smith",
+      "email": "john@example.com",
+      "phone": "123-456-7890",
+      "reason": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec sem ut elit lobortis tempus. Nam varius, quam ac efficitur fermentum, metus justo eleifend tortor, sed placerat augue metus quis leo. Pellentesque gravida euismod sapien a iaculis. Etiam non eros ante. Donec sit amet lorem vitae felis efficitur elementum. Morbi gravida quis ante ac condimentum. Nunc in odio eget risus euismod hendrerit id vitae odio. Sed id maximus est. Praesent at risus ac nulla efficitur consectetur.\n\n",
+      "status": "pending",
+      "requestedAt": "2026-05-11T23:53:52.318Z"
     }
   ]
 }
