@@ -10,7 +10,7 @@ Simple React + Express booking flow with a local `lowdb` database.
    ```
 2. Start the backend and frontend in development mode:
    ```bash
-   npm run start:dev
+   npm run dev
    ```
 
 The React app will run on `http://localhost:4173` and API requests are proxied to `http://localhost:4000`.
