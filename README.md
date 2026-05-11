@@ -24,13 +24,13 @@ The React app will run on `http://localhost:4173` and API requests are proxied t
 - Booking statuses: pending, confirmed, cancelled
 
 ## Demo accounts
-Patient Account
-Email: john@example.com
-Password: patient123
+Patient Account  
+Email: john@example.com  
+Password: patient123  
 
-Physician (Admin) Account
-Email: maya@hospital.com
-Password: doc123
+Physician (Admin) Account  
+Email: maya@hospital.com  
+Password: doc123  
 
 ## Notes
 
