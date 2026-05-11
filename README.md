@@ -22,6 +22,7 @@ The React app will run on `http://localhost:4173` and API requests are proxied t
   - Patient details form + reason for visit
 - Physician bookings dashboard
 - Booking statuses: pending, confirmed, cancelled
+- Appointment slot availability is updated when a booking is created or cancelled
 
 ## Demo accounts
 Patient Account  
@@ -35,4 +36,3 @@ Password: doc123
 ## Notes
 
 - Backend storage is in `backend/db.json`
-- Appointment slot availability is updated when a booking is created or cancelled
