@@ -4,15 +4,14 @@ Simple React + Express booking flow with a local `lowdb` database.
 
 ## Technical Decisions
 
-I chose React because the prototype depends on several changing states, such as booking statuses, appointment times, form inputs. 
-The application is also component-heavy, and React allows for the organization and management of reusable interface elements such
-as appointment cards, dashboard views and booking forms. 
+I chose React because the prototype depends on several changing states, such as booking statuses, appointment times and form inputs. 
+The application is also component-heavy, and React allows for the organization and management of reusable interface elements such as appointment cards, dashboard views and booking forms. 
 
 ## Future Improvements
 
 Besides a more robust authentication system and backend, I would implement the following features to improve communication between physicians and patients: 
-   - An autofill/ AI assistant to help patients describe their symptoms and reason for visit in greater detail
-   - An AI overview system that summarizes patient concerns and relevant visit history for physicians before the next consultation
+   - An autofill/AI assistant to help patients describe their symptoms and reason for visit in greater detail
+   - An AI overview system that summarizes patient concerns and relevant visit history for physicians before the consultation begins
 
 ## Run locally
 
