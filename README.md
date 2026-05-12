@@ -9,9 +9,9 @@ The application is also component-heavy, and React allows for the organization a
 
 ## Future Improvements
 
-Besides a more robust authentication system and backend, I would implement the following features to improve communication between physicians and patients: 
+Besides a more robust authentication system and backend, I would implement the following features to improve communication between clinicians and patients: 
    - An autofill/AI assistant to help patients describe their symptoms and reason for visit in greater detail
-   - An AI overview system that summarizes patient concerns and relevant visit history for physicians before the consultation begins
+   - An AI overview system that summarizes patient concerns and relevant visit history for clinicians before the consultation begins
 
 ## Run locally
 
@@ -27,11 +27,11 @@ Besides a more robust authentication system and backend, I would implement the f
 The React app will run on `http://localhost:4173` and API requests are proxied to `http://localhost:4000`.
 
 ## Available features
-- User authentication for patients and physicians 
-- Patient-facing physician selection
+- User authentication for patients and clinicians 
+- Patient-facing clinician selection
   - Available appointment time selection
   - Patient details form + reason for visit
-- Physician bookings dashboard
+- Clinician bookings dashboard
 - Booking statuses: pending, confirmed, cancelled
 
 ## Demo accounts
@@ -39,7 +39,7 @@ Patient Account
 Email: john@example.com  
 Password: patient123  
 
-Physician Account  
+Clinician Account  
 Email: maya@hospital.com  
 Password: doc123  
 
