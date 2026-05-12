@@ -31,7 +31,7 @@ The React app will run on `http://localhost:4173` and API requests are proxied t
 - Patient-facing physician selection
   - Available appointment time selection
   - Patient details form + reason for visit
-- physician bookings dashboard
+- Physician bookings dashboard
 - Booking statuses: pending, confirmed, cancelled
 
 ## Demo accounts
@@ -39,7 +39,7 @@ Patient Account
 Email: john@example.com  
 Password: patient123  
 
-physician Account  
+Physician Account  
 Email: maya@hospital.com  
 Password: doc123  
 
